@@ -34,6 +34,7 @@ def test_imports(filename="strange_pattern", allowed_imports={"numpy"}):
 def test_strange_pattern():
     result = testfile.strange_pattern((10, 10))
 
+
     assert type(
         result) is np.ndarray, "Your function does not return a NumPy array!"
     assert result.dtype is np.dtype(
@@ -50,3 +51,4 @@ def test_strange_pattern():
 
     assert result.shape == (
         0, 0), "Your function does not produce the correct pattern in an edge case!"
+    

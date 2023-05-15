@@ -40,6 +40,3 @@ def test_gaussian_analysis():
     assert type(result) is tuple, 'Your function does not return the right form of result!'
     assert result[0] < upper_bound and result[0] > lower_bound, 'Your function does not return the right result!'
     
-
-
-    

@@ -39,4 +39,4 @@ def test_combination():
     assert sha1(result).hexdigest(
     ) == '5709b4ea8b49ac48d42ae3e0bd1b3fb0dbb3249b', 'Your function does not return the right result!'
 
-    
+
